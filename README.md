@@ -1,4 +1,4 @@
-# Pearlerizer
+# Perlerizer
 
 This Python script pixelates images and maps them to a specific color palette, creating a "bead art" effect. It's useful for artists and hobbyists who want to translate digital images into physical bead creations (like Perler beads, Hama beads, etc.).
 
@@ -30,14 +30,14 @@ pip install -r requirements.txt
 
 3.  **Run the Script:**
     ```bash
-    python pearlerizer.py
+    python perlerizer.py
     ```
 
 4.  **Find the Output:** The processed images will be saved in the `output` folder with the same name as the input file (but with a `.png` extension).
 
 ## Configuration
 
-You can change the following settings at the top of the `pearlerizer.py` script:
+You can change the following settings at the top of the `perlerizer.py` script:
 
 -   `PIXEL_SIZE`: An integer that determines how large the pixelated blocks will be. A higher number means a more "blocky" or abstract image. (Default: `16`)
 -   `PALETTE_IMAGE`: The filename of your palette image. (Default: `"palette.png"`)
@@ -52,7 +52,7 @@ You can change the following settings at the top of the `pearlerizer.py` script:
 2.  **`input/my_photo.jpg`:**
     (A regular photograph)
 
-3.  **Run `python pearlerizer.py`**
+3.  **Run `python perlerizer.py`**
 
 4.  **`output/my_photo.png`:**
     (A pixelated version of `my_photo.jpg` using only the colors from `palette.png`)
